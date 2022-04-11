@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-size: 15px;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1em;
+}
+
+h1,h2,h3{
+    color: #00ff00;
+}
+
+input{
+    padding: 5px;
+    margin: 20px;
+}
+
+#controls{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+#main{
+    background-color: #bababa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*flex-direction: column;*/
+}
+
+.in-main{
+    background-color: #7f7f7f;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+
+.in-main:hover{
+    background-color: #f7f7f7;
+}
