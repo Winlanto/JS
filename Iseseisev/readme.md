@@ -19,3 +19,5 @@
 ### v1.1
 * Parandatud aasta inputi kontroll
 * Tehtud pensiooni kalkulaator
+* Lisatud iseseisva töö kirjeldus
+* Lisatud iseseisvatöö probleemid

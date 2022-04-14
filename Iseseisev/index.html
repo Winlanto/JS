@@ -17,12 +17,16 @@
 </header>
 <body>
     <main>
+        <div class="info">
+            <h1>Ieseisva töö kirjeldus </h1>
+            <p>Selle iseseisva töö ülesanneks oli luua veebirakenduse, mis sisaldab kolm lehte: avaleht, tiimileht ja kontaktileht.</p>
+        </div>
         <div id="pensionContainer">
-            <label for="year">Sünniaasta</label>
+            <label for="year"><h2>Sünniaasta</h2></label>
             <input type="number" name="year" id="year" step="1">
             <div id="radioContainer">
                 <label for="man">Mees</label>
-                <input type="radio" name="gender" id="man" class="active">
+                <input type="radio" name="gender" id="man" class="active" checked>
                 <input type="radio" name="gender" id="woman">
                 <label for="woman">Naine</label>
             </div>
@@ -30,6 +34,12 @@
                 <input type="button" value="Kalkuleeri" id="calculatePension">
                 <p id="pensionResult">Pensioonini jäänud aeg</p>
             </div>
+        </div>
+        <div class="info">
+            <h1>Raskused iseseisvatöö tegemisel</h1>
+            <ul>
+                <li>Kasutaja saab sisestada arvu vähem kui praegune aasta miinus 110</li>
+            </ul>
         </div>
     </main>
 </body>

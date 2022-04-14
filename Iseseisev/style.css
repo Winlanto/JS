@@ -17,9 +17,17 @@ main{
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
+}
+
+.info{
+    width: 50%;
+}
+
+.info > *{
+    margin: 2%;
 }
 
 footer{
@@ -49,5 +57,5 @@ a:hover{
 input{text-align: center;}
 
 #pensionContainer *{
-    margin: 2%;
+    padding: 3% 0;
 }
