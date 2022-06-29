@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    justify-content: space-around;
+    font-size: 13px;
+}
+
+#time{
+    display: flex;
+    justify-content: center;
+}
+#fullDate{
+     display: flex;
+     justify-content: center;
+ }

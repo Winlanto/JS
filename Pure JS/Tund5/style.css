@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.task-completed{
+    background-color: lightgreen;
+}
+
+#inputContainer, #buttonContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+input{
+    height: 25px;
+    width: 25%;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+input[type="button"]{
+    width: 15%;
+    height: 37px;
+    padding: 10px;
+    background-color: aquamarine;
+    font-size: 17px;
+}
+
+input[type="button"]:hover{
+    background-color: aqua;
+    font-weight: 600;
+}
+
+.todo-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li{
+    display: inline-flex;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-button{
+    border-radius: 5px;
+    background-color: red;
+    padding: 5px;
+}
