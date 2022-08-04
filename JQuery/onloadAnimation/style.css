@@ -2,22 +2,26 @@ html, body{
     margin: 0;
     padding: 0;
     text-decoration: none;
-}
-
-body{
     background-color: #afafaf;
 }
+
 #loader{
     width: 100vw;
     height: 100vh;
-    background-color: #000000;
     display: flex;
+    background: #000000;
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: fixed;
+    z-index: 100;
 }
 
-#imgDiv {
-    width: 50%;
+#preloader{
+    width: 100vw;
+    height: 100vh;
+    background: #000000 url("img/preloader.gif") center center no-repeat;
+    position: fixed;
+    z-index: 200;
 }
 
