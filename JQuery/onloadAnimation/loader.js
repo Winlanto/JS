@@ -11,7 +11,7 @@ class Loader {
                 $("#preloader").fadeOut(1000, () => {
                     this.loadImages();
                 });
-            }else{
+            } else {
                 $("#loader").hide();
                 $("#preloader").fadeOut(500);
             }
@@ -31,7 +31,6 @@ class Loader {
 
     //need to fix 'for' cycle animation
     animate() {
-        //$('#loader').css({'background-color': 'rgb(0,0,0)', 'background-repeat': 'no-repeat'});
         for (let i = 0; i < this.images.length; i++) {
             $('#loader').append('<img src="img/loader/' + this.images[i] + '" alt="animation image" id="loadingImg">');
             $('#loadingImg').hide().fadeIn(2000);
