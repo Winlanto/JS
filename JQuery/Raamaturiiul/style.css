@@ -18,14 +18,14 @@ footer{
 }
 
 header, footer{
-    height: 10vh;
+    height: calc(4vh + 4vw);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #010101;
     color: #f7f7f7;
-    font-size: 1.5rem;
+    font-size:calc(12px + 1vw);
     font-weight: 600;
 }
 
@@ -44,7 +44,7 @@ a:hover{
     font-size: 1.5rem;
     font-weight: bold;
     background-color: silver;
-    height: 5vh;
+    height: calc(4vh + 4vw);
 
 }
 
@@ -60,7 +60,7 @@ a:hover{
 
 #addBook{
     display: flex;
-    height: 5vh;
+    height: calc(4vh + 4vw);
     justify-content: space-around;
     background-color: goldenrod;
     align-items: center;
@@ -68,8 +68,8 @@ a:hover{
 }
 
 #addBook input{
-    max-width: 19vw;
-    font-size: 1rem;
+    width: 18vw;
+    font-size: calc(0.6rem + 0.3vw);
     padding: 0.5vh 0.5vw;
     text-align: center;
     border-radius: 20px;
@@ -77,18 +77,28 @@ a:hover{
 }
 
 .book{
+    padding-top: 10px;
+    font-size: calc(1rem + 0.3vh);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    text-align: center;
     width: 90vw;
 }
-.book>*{
-     width: 10vw;
-    text-align: left;
+.book>:nth-child(2):nth-child(4){
+    width: calc(2.5vw + 2.5vh);
+    text-align: center;
+}
+.book>:nth-child(3){
+    width: calc(5vw + 5vh);
+}
+
+.book>:not(:nth-child(2)):not(:nth-child(4)):not(:nth-child(3)){
+    width: calc(10vw + 10vh);
  }
 
 h1{
-    font-size: 1.5rem;
+    font-size: calc(1rem + 0.4vh);
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -113,7 +123,7 @@ img{
 }
 
 input[type="range"] {
-    width: 14vw;
+    width: calc(7vw + 7vh);
 }
 
 
